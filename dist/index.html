@@ -18,6 +18,25 @@
   footer .logo { width: 84px; height: 84px; }
   @media (max-width:780px) { .top .logo { width: 46px; height: 46px; } }
 </style>
+<style>
+  .hero {
+    background:
+      linear-gradient(90deg, rgba(159,29,22,.97) 0%, rgba(159,29,22,.86) 38%, rgba(159,29,22,.28) 100%),
+      url('ajo-poster.png') center right / cover no-repeat;
+  }
+  .hero:before { opacity: .16; mix-blend-mode: screen; }
+  .hero-grid { grid-template-columns: 1fr; min-height: 700px; }
+  .hero-grid > div:first-child { max-width: 760px; position: relative; z-index: 1; }
+  .hero-photo { display: none; }
+  @media (max-width:780px) {
+    .hero {
+      background:
+        linear-gradient(180deg, rgba(159,29,22,.88) 0%, rgba(159,29,22,.72) 55%, rgba(159,29,22,.42) 100%),
+        url('ajo-poster.png') 64% center / cover no-repeat;
+    }
+    .hero-grid { min-height: 680px; }
+  }
+</style>
 </head>
 <body>
 <header class="top"><div class="wrap"><a class="logo" href="#utama"><i>★</i> AJO AYAM GEPREK</a><nav><a href="#tentang">Tentang</a><a href="#kenapa">Kenapa AJO</a><a href="#paket">Paket</a><a href="#galeri">Galeri</a><a href="#faq">FAQ</a></nav><a class="navcta" href="https://wa.me/6281220702911?text=Halo%20Kak%2C%20saya%20tertarik%20dengan%20paket%20kemitraan%20AJO%20Ayam%20Geprek%20Rp9%20juta.%20Boleh%20minta%20informasi%20lengkapnya%3F">Tanya Kemitraan</a></div></header>
@@ -34,3 +53,4 @@
 <a id="mobile-wa" href="https://wa.me/6281220702911?text=Halo%20Kak%2C%20saya%20tertarik%20dengan%20paket%20kemitraan%20AJO%20Ayam%20Geprek%20Rp9%20juta.%20Boleh%20minta%20informasi%20lengkapnya%3F">CHAT KEMITRAAN VIA WHATSAPP</a>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"AJO Ayam Geprek","url":"https://ajo-ayam-geprek-kemitraan.enefisual.chatgpt.site","telephone":"+6281220702911"},{"@type":"Restaurant","name":"AJO Ayam Geprek","servesCuisine":"Indonesian street food","telephone":"+6281220702911"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Berapa modal untuk mulai?","acceptedAnswer":{"@type":"Answer","text":"Paket kemitraan AJO Ayam Geprek mulai dari Rp9 juta."}},{"@type":"Question","name":"Apakah mendapat training?","acceptedAnswer":{"@type":"Answer","text":"Ya, training dan panduan operasional disiapkan untuk mitra."}}]}]}</script>
 </body></html>
+
